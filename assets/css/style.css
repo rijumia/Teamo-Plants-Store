@@ -14,12 +14,13 @@
 }
 
 .banner_section{
-    background: url(../img/hero-bg.webp);
+    background: rgba(0, 0, 0, 0.607) url(../img/hero-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-blend-mode: multiply;
     padding: 10rem 0;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
