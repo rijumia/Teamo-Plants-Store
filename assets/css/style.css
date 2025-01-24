@@ -12,3 +12,18 @@
     color: black;
     border-bottom: 2px solid #ECE852;
 }
+
+.banner_section{
+    background: url(../img/hero-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
