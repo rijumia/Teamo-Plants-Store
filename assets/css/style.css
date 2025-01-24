@@ -8,6 +8,9 @@
 .header_section .active{
     color: black;
 }
+.header_section .nav-item{
+    transition: .4s;
+}
 .header_section .nav-item:hover{
     color: black;
     border-bottom: 2px solid #ECE852;
