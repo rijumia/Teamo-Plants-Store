@@ -32,6 +32,14 @@
     align-content: center;
 }
 
-.find_plant{
+.find_plant_section{
     background: #80808014;
 }
+.find_plant_section .quiz-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

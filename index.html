@@ -66,7 +66,7 @@
         </div>
       </secton>
 
-      <section class="find_plant pt-5 pb-5">
+      <section class="find_plant_section pt-5 pb-5">
         <div class="container">
           <div class="col-12 text-center">
             <div class="heading">
@@ -74,44 +74,46 @@
               <img class="" src="assets/img/sub.webp" alt="">
             </div>
           </div>
-          <form action="" method="POST">
-            <!-- Question 1: Sunlight -->
-            <div class="mb-4">
-              <label class="form-label" for="sunlightSelect">1. How much sunlight does your space get?</label>
-              <select class="form-select" id="sunlightSelect" name="sunlight" required>
-                <option value="" disabled selected>Select sunlight level</option>
-                <option value="Low">Low light</option>
-                <option value="Medium">Medium light</option>
-                <option value="High">Direct sunlight</option>
-              </select>
-            </div>
-      
-            <!-- Question 2: Care Level -->
-            <div class="mb-4">
-              <label class="form-label" for="careLevelSelect">2. How much care are you willing to provide?</label>
-              <select class="form-select" id="careLevelSelect" name="careLevel" required>
-                <option value="" disabled selected>Select care level</option>
-                <option value="Low">Low maintenance</option>
-                <option value="Medium">Moderate care</option>
-                <option value="High">High maintenance</option>
-              </select>
-            </div>
-      
-            <!-- Question 3: Pet-Friendliness -->
-            <div class="mb-4">
-              <label class="form-label" for="petsSelect">3. Do you have pets?</label>
-              <select class="form-select" id="petsSelect" name="pets" required>
-                <option value="" disabled selected>Select pet-friendliness</option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            </div>
-      
-            <!-- Submit Button -->
-            <div class="d-grid">
-              <button type="submit" class="btn btn-outline-warning rounded-pill p-2">Find My Plant!</button>
-            </div>
-          </form>
+          <div class="quiz-container">
+            <form action="" method="POST">
+              <!-- Question 1: Sunlight -->
+              <div class="mb-4">
+                <label class="form-label" for="sunlightSelect">1. How much sunlight does your space get?</label>
+                <select class="form-select" id="sunlightSelect" name="sunlight" required>
+                  <option value="" disabled selected>Select sunlight level</option>
+                  <option value="Low">Low light</option>
+                  <option value="Medium">Medium light</option>
+                  <option value="High">Direct sunlight</option>
+                </select>
+              </div>
+        
+              <!-- Question 2: Care Level -->
+              <div class="mb-4">
+                <label class="form-label" for="careLevelSelect">2. How much care are you willing to provide?</label>
+                <select class="form-select" id="careLevelSelect" name="careLevel" required>
+                  <option value="" disabled selected>Select care level</option>
+                  <option value="Low">Low maintenance</option>
+                  <option value="Medium">Moderate care</option>
+                  <option value="High">High maintenance</option>
+                </select>
+              </div>
+        
+              <!-- Question 3: Pet-Friendliness -->
+              <div class="mb-4">
+                <label class="form-label" for="petsSelect">3. Do you have pets?</label>
+                <select class="form-select" id="petsSelect" name="pets" required>
+                  <option value="" disabled selected>Select pet-friendliness</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+        
+              <!-- Submit Button -->
+              <div class="d-grid">
+                <button type="submit" class="btn btn-outline-warning rounded-pill p-2">Find My Plant!</button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </main>
