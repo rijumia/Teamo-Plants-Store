@@ -1,4 +1,11 @@
-
+.heading{
+    font-size: 2rem !important;
+    text-align: center;
+    margin-bottom: .2rem;
+    color: black;
+    letter-spacing: .3rem !important;
+    font-weight: 700;
+}
 
 .header_section{
     background: #5CB338;
