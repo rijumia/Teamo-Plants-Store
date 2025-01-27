@@ -66,3 +66,19 @@
 .Blooming_Section .blooming_text{
     padding: 0 1.8rem;
 }
+
+.Footer_section{
+    background: #354E33 url(../img/footer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: multiply;
+}
+.soket{
+    background: #0a5b04;
+    padding: 1rem 0rem;
+}
+.soket .right p{
+    margin: 0 !important;
+    color: #fff;
+}
