@@ -59,3 +59,10 @@
     background: #72b83014;
     
 }
+
+.Blooming_Section{
+    background: #e8e6dee9;
+}
+.Blooming_Section .blooming_text{
+    padding: 0 1.8rem;
+}
