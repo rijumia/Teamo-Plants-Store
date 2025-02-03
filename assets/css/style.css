@@ -91,3 +91,17 @@
     margin: 0 !important;
     color: #fff;
 }
+
+/* Products Page  */
+
+.parent_tips {
+    background-color: #f8f9fad7;
+}
+.parent_tips .main_container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
