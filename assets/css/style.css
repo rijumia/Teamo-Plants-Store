@@ -7,6 +7,15 @@
     font-weight: 700;
 }
 
+.inner_banner{
+    background: #0a5b04 url(../img/innar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 2rem 0;
+}
+
 .header_section{
     background: #5CB338;
     padding: 0.5rem 0;
