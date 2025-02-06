@@ -117,3 +117,8 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.contact_us .contact-container .required {
+    font-size: 1rem !important;
+    color: #eb8281;
+    margin-right: 3px;
+}
