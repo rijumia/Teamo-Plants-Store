@@ -109,11 +109,11 @@
 
 /* Contact Us Page  */
 
-.contact_us .quiz-container {
-    max-width: 900px;
-    margin: 40px auto;
+.contact_us .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 30px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+}
