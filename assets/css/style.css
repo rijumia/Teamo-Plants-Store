@@ -2,6 +2,16 @@ body {
     scroll-behavior: smooth;
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #87dc63;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
 /* Heading Style  */
 .heading{
     font-size: 2rem !important;
